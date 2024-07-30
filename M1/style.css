@@ -1,0 +1,18 @@
+.recuadro {
+    text-align:left;
+    padding: 40px;
+    border: 05px solid #2b2b2b
+    
+}
+
+
+
+.imagen {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    border: 5px solid #0df046
+}
+
