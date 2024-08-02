@@ -1,0 +1,70 @@
+header {
+    background-color:aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    display:grid;
+    justify-content: center;
+}
+ .logo img {
+  width: 100px; /* Ajusta el ancho del logo */
+  height: auto; /* Mantiene la proporción del logo */
+}
+
+.logo img {
+    border-radius: 100%; /* Esto hará que el contenedor sea completamente circular */
+    overflow: hidden;
+    align-items: center;
+    justify-content: center; /* Esto ocultará cualquier parte de la imagen que se salga del círculo */
+  }
+.logo  img{
+    display:flex; /* Esto asegurará que la imagen ocupe todo el espacio del contenedor */
+    width: 30%;
+    height: auto;
+  } */
+
+ul {
+    display: flex;
+    flex-direction:column-reverse;
+}
+
+
+li {
+    margin: 5px;
+    color: aliceblue;
+}
+
+li:hover {
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
